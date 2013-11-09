@@ -8,9 +8,10 @@ public class fechas {
       fechas.fechita();
     }
     public static void fechita() {
-        GregorianCalendar ahora = new GregorianCalendar();
+    /*    GregorianCalendar ahora = new GregorianCalendar();*/
 // Crear una fecha
-//Calendar ahora = new GregorianCalendar(2007,2,2);
+Calendar ahora = new GregorianCalendar(1983,11,9);
+
     System.out.println("Fecha : " + ahora.getTime());
     System.out.println("Año: " + ahora.get(Calendar.YEAR));
     System.out.println("Mes: " + ahora.get(Calendar.MONTH));

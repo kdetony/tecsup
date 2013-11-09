@@ -41,7 +41,7 @@ System.out.println(df7.format(now));
  }    
         
         public static void simpleDateFormat() {
-                DateFormat df = new SimpleDateFormat("E d MMM h:m:s a Z"); 
+                DateFormat df = new SimpleDateFormat("E d MMM h:m:s a Z");   /**cambindo formato AM/PM y zona horaria*/
                 Date now = new Date();
                 System.out.println(df.format(now));
         }

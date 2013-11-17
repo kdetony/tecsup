@@ -1,12 +1,14 @@
 package App.Clase4.Colecciones;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
 public class ejemploHashSet {
-     public static void main (String[] arg ) {
+     public static void main (String[ ] arg ) {
         ejemploHashSet.hashSet();
     }
     public static void hashSet( ) {
@@ -29,10 +31,12 @@ public class ejemploHashSet {
             listado.add(lala);
             listado.add(lala);
             
+            /*acceder */
+                   
             for (Estudiante estudiante : listado) {
                 estudiante.printEstudiante();
         }
              System.out.println(listado.size( ) );
-                     
-    }
-}
+           
+                    }
+   }

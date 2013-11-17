@@ -11,6 +11,10 @@ public class Estudiante implements Comparable<Estudiante>{
         this.nombres=nombres;
         this.apellidos=apellidos;
     }
+
+    Estudiante(String alberto, String zapata, String bolognesi_123, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     @Override
     public int compareTo(Estudiante o) {

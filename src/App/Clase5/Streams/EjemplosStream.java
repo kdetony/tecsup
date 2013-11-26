@@ -8,7 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import sun.org.mozilla.javascript.internal.ast.CatchClause;
+/*import sun.org.mozilla.javascript.internal.ast.CatchClause;*/
 
 public class EjemplosStream {
     private List<String> lineas;        

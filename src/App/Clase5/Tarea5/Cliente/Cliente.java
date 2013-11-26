@@ -34,7 +34,7 @@ public class Cliente {
                   
             out.println("CLIENTE: Iniciando multiplicacion");
             // COMUNICACION 3               
-            DataOutputStream dos = new DataOutputStream(in());
+            
             
 // Cerrar canales
             in.close();
